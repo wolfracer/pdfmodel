@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24x;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    background: url(../img/bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+main {
+    padding: 30px;
+}
+
+footer {
+    background: #35c0ff;
+    width: 100%;
+    height: 50px;
+}
+
+.cl-primary {
+    color: #35c0ff;
+}
+
+.mb1 {
+    margin-bottom: 10px;
+}
+
+.mb3 {
+    margin-bottom: 30px;
+}
+
+.mr1 {
+    margin-right: 10px;
+}
+
+.icon {
+    width: 25px;
+    margin-right: 10px;
+}
+
+
+.caracteristicas span {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 120px;
+}
+
+.direccion {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #35c0ff;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.direccion2 {
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.oferta {
+    background: #35c0ff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.oferta2 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #35c0ff;
+}
+
+
+.thumb {
+    width: 300px;
+    height: 270px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.lista p {
+    margin-left: 30px;
+    position: relative;
+}
+
+.lista li {
+    margin-left: 50px;
+    position: relative;
+}
+
+.lista p::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #35c0ff;
+    position: absolute;
+    top: 6px;
+    left: -20px;
+}
